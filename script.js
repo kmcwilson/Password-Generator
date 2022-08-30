@@ -17,33 +17,32 @@ function generatePassword () {
     window.alert("Password must contain at least 8 characters and less than 128 characters");
     passwordLength = parseInt(prompt ("Choose how many characters you would like to include in your password"));
   }
-  
-function generatePassword () {
-  let passwordPrompt = prompt ("Choose how many characters you would like to include in your password");
-  alert (passwordPrompt);
-  if (passwordPrompt < 8)
-     {
-      window.alert("Password must at least 8 characters");
-      alert (passwordPrompt);
-    } else if (passwordPrompt > 128) {
+  let specialCharactersChoice = window.confirm ('Click OK to include special characters in your password');
+  let uppercaseChoice = window.confirm ('Click OK to include Uppercase letters');
+  let lowerCaseChoice= window.confirm ('Click OK to include lowercase letters');
+  let numbersChoice=window.confirm ('Click OK to include numbers in your password');
 
-      window.alert("Password must be no more than 128 characters");
-      alert (passwordPrompt);
+  if (specialCharactersChoice) {
+      chosenOnes.concat(specialCharacters) }
 
-    } else if (passwordPrompt > 8, passwordPrompt < 128) {
-      window.alert ("Click OK to include special characters in your password");
-    } 
-  
+ if (uppercaseChoice) { 
+      chosenOnes.concat(upperCase) }
+
+  if (lowerCaseChoice){
+     chosenOnes.concat(lowerCase)
+
   }
-  
+  if (numbersChoice) {
+    chosenOnes.concat(numbers)
+  }
+for 
+}
 
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
-
 }
 
 // Add event listener to generate button
@@ -52,14 +51,4 @@ generateBtn.addEventListener("click", writePassword);
 writePassword ()
 
 
-//function generatePassword (){
-  //var characters= "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  //var passwordLength = 12;
-  //var password = "";
 
- // for (var i = 0; i <= passwordLength; i++){
-   // var randomPassword= Math.floor(Math.random() * characters.length);
-   // password += characters.substring (randomPassword, randomPassword +1);
-  
- // document.getElementById ("password").value=password;
-  //
