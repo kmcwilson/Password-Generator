@@ -10,7 +10,7 @@ let chosenOnes = []
 function generatePassword () {
   let  passwordLength = parseInt(prompt ("Choose how many characters you would like to include in your password"));
   
-  while (passwordLength <= 8 || passwordLength >= 128)
+  while (passwordLength < 8 || passwordLength > 128)
   {
     window.alert("Password must contain at least 8 characters and less than 128 characters");
     passwordLength = parseInt(prompt ("Choose how many characters you would like to include in your password"));
@@ -36,9 +36,9 @@ function generatePassword () {
     chosenOnes.concat(numbers)
   }
 }
-  
-    
-  
+
+//*for (var i=0, 0<=passwordLength){
+// chosenOnes[i] text.content= ""
 
 function writePassword() {
   var password = generatePassword();
