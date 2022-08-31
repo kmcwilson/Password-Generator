@@ -37,20 +37,18 @@ function generatePassword () {
   }
 }
 
-//*for (var i=0, 0<=passwordLength){
-// chosenOnes[i] text.content= ""
+  //function finalPassword() {
+  //for (var i=0; i<= passwordLength.length; i++){
+  //chosenOnes[i].textContent= "";}
+  
 
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
 
   
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", generatePassword);
-
-
+ 
