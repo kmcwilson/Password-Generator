@@ -1,4 +1,4 @@
-var generateBtn = document.querySelector("#generate");
+const generateBtn = document.querySelector("#generate");
 
 let specialCharacters = ["!", "@", "#", '$', '%', '^', '&', '*', '(', ')', '+', '-'];
 let upperCase = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -51,7 +51,6 @@ function writePassword() {
   
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", generatePassword);
 
-generatePassword()
-writePassword ()
+
