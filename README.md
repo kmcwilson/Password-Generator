@@ -7,8 +7,9 @@ Once all of the parameters have been selected for the user's password, the new g
 
 ## Screenshot
 
-![screenshot](assets\images\generate-password-screenshot.jpg)
-![screenshot](assets\images\generate-password-screenshot2.jpg)
+
+![generate-password-screenshot](https://user-images.githubusercontent.com/110554091/188020622-3cf2db07-1fd5-4549-bc15-943d2be0664e.jpg)
+![screen![generate-password-screenshot2](https://user-images.githubusercontent.com/110554091/188020527-b7f3a997-948d-42ea-95f3-ad45a0e8f4db.jpg)
 
 
 ## Link to live website
