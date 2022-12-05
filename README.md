@@ -13,4 +13,4 @@ Once all of the parameters have been selected for the user's password, the new g
 
 
 ## Link to live website
-[Link to live website](https://kmcwilson.github.io/bootcamp-challenge-module3/)
+[Link to live website](https://kmcwilson.github.io/Password-Generator/)
