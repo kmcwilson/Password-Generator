@@ -1,4 +1,4 @@
-# Bootcamp Challenge #3
+# Password Generator
 
 ## Description
 
